@@ -7,22 +7,34 @@ export default function Home() {
           <nav className="text-[18px] p-2">
             <ul className="flex gap-8 text-1rem text-[#727272]">
               <li>
-                <a href="#">Home</a>
+                <a className="font-primary" href="#">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">Shop</a>
+                <a className="font-primary" href="#">
+                  Shop
+                </a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a className="font-primary" href="#">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a className="font-primary" href="#">
+                  Blog
+                </a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a className="font-primary" href="#">
+                  Contact
+                </a>
               </li>
               <li>
-                <a href="#">Pages</a>
+                <a className="font-primary" href="#">
+                  Pages
+                </a>
               </li>
             </ul>
           </nav>
@@ -42,7 +54,9 @@ export default function Home() {
               />
             </svg>
 
-            <h3 className="text-1rem">Login / Register </h3>
+            <h3 className="font-primary font-extraboldtext-1rem">
+              Login / Register{" "}
+            </h3>
 
             <div className="flex gap-4">
               <svg
@@ -111,31 +125,186 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="max-w-[1400px] h-[136px] mx-auto">
-        <div className="items-center">
-          <h4 className="text-[#727272] text-[18px]">Featured Products</h4>
-          <h3 className="text-[22px] font-extraboldtext-[#252B42]">
+      <div className="max-w-[1400px]  mx-auto">
+        <div className="text-center font-primary ">
+          <h4 className="text-[#727272] text-[18px] leading-8 tracking-[0.2px] font-normal">
+            Featured Products
+          </h4>
+          <h3 className="text-2xl leading-8 tracking-[0.2px] font-bold text-[#252B42]">
             BESTSELLER PRODUCTS
           </h3>
-          <h4 className="text-[15px] font-bold text-[#727272]">
+          <h4 className="text-sm font-bold leading-5 tracking-[0.2px] text-[#737373]">
             Problems trying to resolve the confilct between
           </h4>
         </div>
-        <div>
-          <div className="one">
-            <img src="/images/products/fixed-height.jpg" alt="" />
-            <h3 className="text-[#252B42] text-[20px] font-bold">
-              Graphic Design
-            </h3>
-            <h4 className="text-[15px] font-bold text-[#727272]">
-              English Department
-            </h4>
-            <h4 className="text-[15px] font-bold text-[#BDBDBD]">
-              $16.48
-              <span className="text-[15px] font-bold text-[#23856D]">
-                $6.48
-              </span>
-            </h4>
+        <div className="inline-grid grid-cols-4 gap-8 max-w-[1049px] mx-auto">
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/fixed-height.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picTwo.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[238px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picThree.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picFour.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picFive.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picSix.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picSeven.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
+          </div>
+          <div className="w-[239px] h-[615px]">
+            <img
+              className=" w[239px] h-[427px]"
+              src="/images/products/picEight.jpg"
+              alt=""
+            />
+            <div className="w-[239px] h-[188px]">
+              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+                Graphic Design
+              </h3>
+              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+                English Department
+              </h4>
+              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+                $16.48
+                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                  $6.48
+                </span>
+              </h4>
+            </div>
           </div>
         </div>
       </div>
@@ -212,11 +381,11 @@ export default function Home() {
           </div>
           <hr className="text-[#E6E6E6] my-9" />
           <div className="flex justify-between ]">
-            <div>
+            <div className="space-y-5">
               <h3 className="text-[23px] text-[#252B42] font-bold">
                 Company Info
               </h3>
-              <ul className="text-[#737373] text-[18px] mt-1.5">
+              <ul className="text-[#737373] text-[18px] space-y-2.5">
                 <li>About Us</li>
                 <li>Carrier</li>
                 <li>WE are hiring</li>
@@ -224,9 +393,9 @@ export default function Home() {
               </ul>
             </div>
 
-            <div>
+            <div className="space-y-5">
               <h3 className="text-[23px] text-[#252B42] font-bold">Legal</h3>
-              <ul className="text-[#737373] text-[18px] mt-1.5">
+              <ul className="text-[#737373] text-[18px] space-y-2.5">
                 <li>About Us</li>
                 <li>Carrier</li>
                 <li>WE are hiring</li>
@@ -234,9 +403,9 @@ export default function Home() {
               </ul>
             </div>
 
-            <div>
+            <div className="space-y-5">
               <h3 className="text-[23px] text-[#252B42] font-bold">Features</h3>
-              <ul className="text-[#737373] text-[18px] mt-1.5">
+              <ul className="text-[#737373] text-[18px] space-y-2.5">
                 <li>Business Marketing</li>
                 <li>User Analytic</li>
                 <li>Live Chat</li>
@@ -244,9 +413,9 @@ export default function Home() {
               </ul>
             </div>
 
-            <div>
+            <div className="space-y-5">
               <h3 className="text-[23px] text-[#252B42] font-bold">Resoures</h3>
-              <ul className="text-[#737373] text-[18px] mt-1.5">
+              <ul className="text-[#737373] text-[18px] space-y-2.5">
                 <li>IOS & Android</li>
                 <li>Watch a Demo </li>
                 <li>Customers</li>
@@ -254,10 +423,23 @@ export default function Home() {
               </ul>
             </div>
 
-            <div>
+            <div className="space-y-5">
               <h3 className="text-[23px] text-[#252B42] font-bold">
                 Get In Touch
               </h3>
+              <div>
+                <input
+                  className=" py-[15px] px-5 border-[1px] focus:outline-none rounded-bl-sm rounded-tl-sm border-[#E6E6E6] bg-[#F9F9F9] rounded-sm leading-7 tracking-[0.2px] text-sm text-[#737373] placeholder:text-[#737373] placeholder:text-sm placeholder:leading-7 placeholder:tracking-[o.2px]"
+                  type="text"
+                  placeholder="Your Email"
+                />
+                <button className="py-4 px-5 text-white leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
+                  Subscribe
+                </button>
+                <p className="text-sm pb-2 leading-7 tracking-[0,2px] text-[#737373]">
+                  Lore imp sum dolor Amit
+                </p>
+              </div>
             </div>
           </div>
           <div className="text-[#737373] text-[18px] mt-[70px]">
