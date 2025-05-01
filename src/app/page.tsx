@@ -111,6 +111,34 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <div className="max-w-[1400px] h-[136px] mx-auto">
+        <div className="items-center">
+          <h4 className="text-[#727272] text-[18px]">Featured Products</h4>
+          <h3 className="text-[22px] font-extraboldtext-[#252B42]">
+            BESTSELLER PRODUCTS
+          </h3>
+          <h4 className="text-[15px] font-bold text-[#727272]">
+            Problems trying to resolve the confilct between
+          </h4>
+        </div>
+        <div>
+          <div className="one">
+            <img src="/images/products/fixed-height.jpg" alt="" />
+            <h3 className="text-[#252B42] text-[20px] font-bold">
+              Graphic Design
+            </h3>
+            <h4 className="text-[15px] font-bold text-[#727272]">
+              English Department
+            </h4>
+            <h4 className="text-[15px] font-bold text-[#BDBDBD]">
+              $16.48
+              <span className="text-[15px] font-bold text-[#23856D]">
+                $6.48
+              </span>
+            </h4>
+          </div>
+        </div>
+      </div>
       <footer>
         <div className="max-w-[1200px] h-[136px] mx-auto">
           <div className=" flex justify-between ">
@@ -183,7 +211,7 @@ export default function Home() {
             </div>
           </div>
           <hr className="text-[#E6E6E6] my-9" />
-          <div className="flex justify-between">
+          <div className="flex justify-between ]">
             <div>
               <h3 className="text-[23px] text-[#252B42] font-bold">
                 Company Info
