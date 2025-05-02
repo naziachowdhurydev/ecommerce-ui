@@ -177,7 +177,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img
-                src="/images/pick-editors/pick-3.jpg"
+                src="/images/pick-editors/pick-4.jpg"
                 alt=""
                 className="w-full h-full bg-cover"
               />
