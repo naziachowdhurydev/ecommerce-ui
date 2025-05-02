@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+      {/* header */}
       <header className="max-w-[1400px] h-[136px] mx-auto flex justify-between ">
         <div className="flex gap-13.5">
           <span className="font-bold text-[28px]">BrandName</span>
@@ -54,8 +55,8 @@ export default function Home() {
               />
             </svg>
 
-            <h3 className="font-primary font-extraboldtext-1rem">
-              Login / Register{" "}
+            <h3 className="font-primary font-bold text-sm text-[#737373]">
+              Login / Register
             </h3>
 
             <div className="flex gap-4">
@@ -125,9 +126,74 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="max-w-[1400px]  mx-auto">
-        <div className="text-center font-primary ">
-          <h4 className="text-[#727272] text-[18px] leading-8 tracking-[0.2px] font-normal">
+      {/* editors pick */}
+      <div className="bg-[#FAFAFA] py-20">
+        <div className="max-w-[1200px] mx-auto space-y-12">
+          <div className="space-y-2.5">
+            <h2 className="font-primary mb-2.5 font-bold text-2xl leading-8 tracking-[0.1px] text-center text-[#252B42]">
+              EDITOR`S PICK
+            </h2>
+            <p className="font-primary font-normal text-sm leading-6 tracking-[0.2px] text-center text-[#737373]">
+              Problems trying to resolve the conflict between
+            </p>
+          </div>
+
+          <div className="grid grid-cols-4 gap-x-7 gap-y-4 gird-row-2">
+            <div className=" col-span-2 row-span-2 relative">
+              <img
+                src="/images/pick-editors/pick-1.jpg"
+                alt=""
+                className="w-full h-full bg-cover"
+              />
+              <div className="bg-white absolute bottom-5 left-5 py-3 px-10">
+                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+                  MEN
+                </span>
+              </div>
+            </div>
+            <div className=" row-span-2 relative">
+              <img
+                src="/images/pick-editors/pick-2.jpg"
+                alt=""
+                className="w-full h-full bg-cover"
+              />
+              <div className="bg-white absolute bottom-5 left-5 py-3 px-10">
+                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+                  WOMEN
+                </span>
+              </div>
+            </div>
+            <div className=" relative">
+              <img
+                src="/images/pick-editors/pick-3.jpg"
+                alt=""
+                className="w-full h-full bg-cover"
+              />
+              <div className="bg-white absolute bottom-5 left-5 py-3 px-10 ">
+                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+                  ACCESSORIES
+                </span>
+              </div>
+            </div>
+            <div className="relative">
+              <img
+                src="/images/pick-editors/pick-3.jpg"
+                alt=""
+                className="w-full h-full bg-cover"
+              />
+              <div className="bg-white absolute bottom-5 left-5 py-3 px-10 ">
+                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+                  KIDS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*product card */}
+      <div className="max-w-[1050px]  mx-auto">
+        <div className="text-center font-primary py-20 ">
+          <h4 className="text-[#727272] text-sm leading-5 tracking-[0.2px] font-normal">
             Featured Products
           </h4>
           <h3 className="text-2xl leading-8 tracking-[0.2px] font-bold text-[#252B42]">
@@ -137,7 +203,7 @@ export default function Home() {
             Problems trying to resolve the confilct between
           </h4>
         </div>
-        <div className="inline-grid grid-cols-4 gap-8 max-w-[1049px] mx-auto">
+        <div className="grid grid-cols-4 gap-8 max-w-[1049px] mx-auto">
           <div className="w-[239px] h-[615px]">
             <img
               className=" w[239px] h-[427px]"
@@ -308,11 +374,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* footer */}
       <footer>
-        <div className="max-w-[1200px] h-[136px] mx-auto">
-          <div className=" flex justify-between ">
+        <div className=" bg-[#FAFAFA]  py-10">
+          <div className=" max-w-[1050px]  mx-auto flex justify-between items-center">
             <h3 className="text-[30px] font-bold">Bandage</h3>
-            <div className="flex gap-4 mt-4">
+            <div className="flex gap-4 items-center">
               <svg
                 width="25"
                 height="24"
@@ -379,70 +446,74 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <hr className="text-[#E6E6E6] my-9" />
-          <div className="flex justify-between ]">
-            <div className="space-y-5">
-              <h3 className="text-[23px] text-[#252B42] font-bold">
-                Company Info
-              </h3>
-              <ul className="text-[#737373] text-[18px] space-y-2.5">
-                <li>About Us</li>
-                <li>Carrier</li>
-                <li>WE are hiring</li>
-                <li>Blog</li>
-              </ul>
-            </div>
+        </div>
 
-            <div className="space-y-5">
-              <h3 className="text-[23px] text-[#252B42] font-bold">Legal</h3>
-              <ul className="text-[#737373] text-[18px] space-y-2.5">
-                <li>About Us</li>
-                <li>Carrier</li>
-                <li>WE are hiring</li>
-                <li>Blog</li>
-              </ul>
-            </div>
+        <hr className=" max-w-[1050px]  mx-auto text-[#E6E6E6] mb-12" />
 
-            <div className="space-y-5">
-              <h3 className="text-[23px] text-[#252B42] font-bold">Features</h3>
-              <ul className="text-[#737373] text-[18px] space-y-2.5">
-                <li>Business Marketing</li>
-                <li>User Analytic</li>
-                <li>Live Chat</li>
-                <li>Unlimited Support</li>
-              </ul>
-            </div>
+        <div className=" max-w-[1050px] h-[136px] mx-auto flex justify-between ]">
+          <div className="space-y-5">
+            <h3 className="text-[23px] text-[#252B42] font-bold">
+              Company Info
+            </h3>
+            <ul className="text-[#737373] text-[18px] space-y-2.5">
+              <li>About Us</li>
+              <li>Carrier</li>
+              <li>WE are hiring</li>
+              <li>Blog</li>
+            </ul>
+          </div>
 
-            <div className="space-y-5">
-              <h3 className="text-[23px] text-[#252B42] font-bold">Resoures</h3>
-              <ul className="text-[#737373] text-[18px] space-y-2.5">
-                <li>IOS & Android</li>
-                <li>Watch a Demo </li>
-                <li>Customers</li>
-                <li>API</li>
-              </ul>
-            </div>
+          <div className="space-y-5">
+            <h3 className="text-[23px] text-[#252B42] font-bold">Legal</h3>
+            <ul className="text-[#737373] text-[18px] space-y-2.5">
+              <li>About Us</li>
+              <li>Carrier</li>
+              <li>WE are hiring</li>
+              <li>Blog</li>
+            </ul>
+          </div>
 
-            <div className="space-y-5">
-              <h3 className="text-[23px] text-[#252B42] font-bold">
-                Get In Touch
-              </h3>
-              <div>
-                <input
-                  className=" py-[15px] px-5 border-[1px] focus:outline-none rounded-bl-sm rounded-tl-sm border-[#E6E6E6] bg-[#F9F9F9] rounded-sm leading-7 tracking-[0.2px] text-sm text-[#737373] placeholder:text-[#737373] placeholder:text-sm placeholder:leading-7 placeholder:tracking-[o.2px]"
-                  type="text"
-                  placeholder="Your Email"
-                />
-                <button className="py-4 px-5 text-white leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
-                  Subscribe
-                </button>
-                <p className="text-sm pb-2 leading-7 tracking-[0,2px] text-[#737373]">
-                  Lore imp sum dolor Amit
-                </p>
-              </div>
+          <div className="space-y-5">
+            <h3 className="text-[23px] text-[#252B42] font-bold">Features</h3>
+            <ul className="text-[#737373] text-[18px] space-y-2.5">
+              <li>Business Marketing</li>
+              <li>User Analytic</li>
+              <li>Live Chat</li>
+              <li>Unlimited Support</li>
+            </ul>
+          </div>
+
+          <div className="space-y-5">
+            <h3 className="text-[23px] text-[#252B42] font-bold">Resoures</h3>
+            <ul className="text-[#737373] text-[18px] space-y-2.5">
+              <li>IOS & Android</li>
+              <li>Watch a Demo </li>
+              <li>Customers</li>
+              <li>API</li>
+            </ul>
+          </div>
+
+          <div className="space-y-5">
+            <h3 className="text-[23px] text-[#252B42] font-bold">
+              Get In Touch
+            </h3>
+            <div>
+              <input
+                className=" py-[15px] px-5 border-[1px] focus:outline-none rounded-bl-sm rounded-tl-sm border-[#E6E6E6] bg-[#F9F9F9] rounded-sm leading-7 tracking-[0.2px] text-sm text-[#737373] placeholder:text-[#737373] placeholder:text-sm placeholder:leading-7 placeholder:tracking-[o.2px]"
+                type="text"
+                placeholder="Your Email"
+              />
+              <button className="py-4 px-5 text-white leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
+                Subscribe
+              </button>
+              <p className="text-sm pb-2 leading-7 tracking-[0,2px] text-[#737373]">
+                Lore imp sum dolor Amit
+              </p>
             </div>
           </div>
-          <div className="text-[#737373] text-[18px] mt-[70px]">
+        </div>
+        <div className="bg-[#FAFAFA]">
+          <div className=" h-[74px] py-6 max-w-[1050px]  mx-auto text-[#737373] text-[18px] mt-[70px]">
             Made With Love By Finland All Right Reserved
           </div>
         </div>

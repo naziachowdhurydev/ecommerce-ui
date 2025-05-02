@@ -3,6 +3,63 @@
 :root {
   /* --background: #ffffff;
   --foreground: #171717; */
+
+  /* colors */
+
+  --clr-primary: #23a6f0;
+  --clr-secondary-1: #23856d;
+  --clr-secondary-2: #3c403d;
+  --clr-dark-background: #252b42;
+  --clr-light-background: #ffffff;
+  --clr-success: #2dc071;
+  --clr-alert: #e77c40;
+  --clr-danger: #e74040;
+  --clr-hover: #2a7cc7;
+  --clr-disabled-element: #8ec2f2;
+  --clr-muted: #bdbdbd;
+  --clr-light-gray-1: #fafafa;
+  --clr-light-gray-2: #ececec;
+  --clr-text-primary: #23a6f0;
+  --clr-text-secondary-1: #40bb15;
+  --clr-text-secondary-2: #3c403d;
+  --clr-text: #252b42;
+  --clr-second-text-1: #737373;
+  --clr-second-text-2: #ffffff;
+  --clr-success-text: #2dc071;
+  --clr-alert-text: #e77c40;
+  --clr-danger-text: #e74040;
+  --clr-hover-text: #2a7cc7;
+  --clr-disabled-element-text: #8ec2f2;
+  --clr-muted-text: #bdbdbd;
+  --clr-light-text-gray-1: #fafafa;
+  --clr-light-text-gray-2: #ececec;
+  --clr-faded-primary: #b2e3ff;
+  --clr-faded-secondary-1: #b9eaa8;
+  --clr-faded-secondary-2: #ffdcd1;
+  --clr-light-background: #ffffff;
+
+  /* Typography */
+  /* font sizes */
+  --fsz-h0: 90px;
+  --fsz-h1: 58px;
+  --fsz-h2: 40px;
+  --fsz-h3: 24px;
+  --fsz-h4: 20px;
+  --fsz-h5: 16px;
+  --fsz-h6: `4px;
+  --fsz-btn-text: 14px;
+  --fsz-mobile-menu: 30px;
+  --fsz-pragraph: 14px;
+  --fsz-list: 20px;
+  --fsz-link: 14px;
+  --fsz-small: 12px;
+
+  /* font family */
+  --ff-primary: --font-montserrat;
+
+  /* font weights */
+  --fw: bold;
+  --fw-1: regular;
 }
 
 @theme inline {
@@ -12,12 +69,63 @@
   --font-mono: var(--font-geist-mono);
 
   --font-primary: var(--font-montserrat);
+
+  --color-primary: var(--clr-primary);
+  --color-secondary-1: var(--clr-secondary-1);
+  --color-secondary-2: var(--clr-secondary-2);
+  --color-dark-background: var(--clr-dark-background);
+  --color-light-background: var(--clr-light-background);
+  --color-succes: var(--clr-succes);
+  --color-alert: var(--clr-alert);
+  --color-danger: var(--clr-danger);
+  --color-hover: var(--clr-hove);
+  --color-disabled-element: var(--clr-disabled-element);
+  --color-muted: var(--clr-muted);
+  --color-light-gray-1: var(--clr-light-gray-1);
+  --color-light-gray-2: var(--clr-light-gray-2);
+  --color-text-primary: var(--clr-text-primary);
+  --color-text-secondary-1: var(--clr-text-secondary-1);
+  --color-text-secondary-2: var(--clr-text-secondary-2);
+  --color-text: var(--clr-text);
+  --color-second-text-1: var(--clr-second-text-1);
+  --color-second-text-2: var(--clr-second-text-2);
+  --color-success-text: var(--clr-success-text);
+  --color-alert-text: var(--clr-alert-text);
+  --color-danger-text: var(--clr-danger-text);
+  --color-hover-text: var(--clr-hover-text);
+  --color-disabled-element-text: var(--clr-disabled-element-text);
+  --color-muted-text: var(--clr-muted-text);
+  --color-light-text-gray-1: var(--clr-light-text-gray-1);
+  --color-light-text-gray-2: var(--clr-light-text-gray-2);
+  --color-faded-primary: var(--clr-faded-primary);
+  --color-faded-secondary-1: var(--clr-faded-secondary-1);
+  --color-faded-secondary-2: var(--clr-faded-secondary-2);
+  --color-light-background: var(--clr-light-background);
+
+  --font-size-h0: var(--fsz-h0);
+  --font-size-h1: var(--fsz-h1);
+  --font-size-h2: var(--fsz-h2);
+  --font-size-h3: var(--fsz-h3);
+  --font-size-h4: var(--fsz-h4);
+  --font-size-h5: var(--fsz-h5);
+  --font-size-h6: var(--fsz-h6);
+  --font-btn-text: var(--fsz-btn-text);
+  --font-mobile-menu: var(--fsz-mobile-menu);
+  --font-paragraph: var(--fsz-pragraph);
+  --font-list: var(--fsz-list);
+  --font-link: var(--fsz-link);
+  --font-small: var(--fsz-small);
+
+  --font-weight: var(--fw);
+  --font-weight-1: var(--fw-1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* --background: #0a0a0a;
     --foreground: #ededed; */
+
+    /* colors */
   }
 }
 
