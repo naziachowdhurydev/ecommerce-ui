@@ -375,6 +375,36 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Neural Universe */}
+      <div className="w-[1050px] h-[682px] mx-auto flex justify-around">
+        <div className="w-[735px] h-[645px]">
+          <img
+            className="bg-cover"
+            src="/images/neural/neural-pic-1.jpg"
+            alt=""
+          />
+        </div>
+
+        <div className="py-[100px] pl-8">
+          <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#BDBDBD] ">
+            SUMMER 2020
+          </h5>
+          <h2 className="text-[#252B42] font-primary font-bold text-[40px] leading-12 tracking-[0.2px]">
+            Part of the Neural <br /> Universe
+          </h2>
+          <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#737373]">
+            We know how large objects will act, but things on a small scale.
+          </h4>
+          <div className="w-[332px] flex justify-between">
+            <button className="py-5 px-[40px] border-[1px] bg-[#2DC071] rounded-sm text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+              BUY NOW
+            </button>
+            <button className="py-5 px-[40px] border-[1px] bg-white rounded-sm text-sm leading-5 tracking-[0.2px] text-[#2DC071] cursor-pointer focus:outline-none ">
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </div>
       {/* featured post */}
       <div className="max-w-[1050px] mx-auto py-28">
         <div className=" mx-auto text-center pb-20">
