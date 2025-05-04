@@ -102,13 +102,14 @@
   --color-faded-secondary-2: var(--clr-faded-secondary-2);
   --color-light-background: var(--clr-light-background);
 
-  --font-size-h0: var(--fsz-h0);
-  --font-size-h1: var(--fsz-h1);
-  --font-size-h2: var(--fsz-h2);
-  --font-size-h3: var(--fsz-h3);
-  --font-size-h4: var(--fsz-h4);
-  --font-size-h5: var(--fsz-h5);
-  --font-size-h6: var(--fsz-h6);
+  --text-*: initial;
+  --text-h0: var(--fsz-h0);
+  --text-h1: var(--fsz-h1);
+  --text-h2: var(--fsz-h2);
+  --text-h3: var(--fsz-h3);
+  --text-h4: var(--fsz-h4);
+  --text-h5: var(--fsz-h5);
+  --text-h6: var(--fsz-h6);
   --font-btn-text: var(--fsz-btn-text);
   --font-mobile-menu: var(--fsz-mobile-menu);
   --font-paragraph: var(--fsz-pragraph);

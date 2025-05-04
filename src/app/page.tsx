@@ -380,7 +380,7 @@ export default function Home() {
         <div className="w-[735px] h-[645px]">
           <img
             className="bg-cover"
-            src="/images/neural/neural-pic-1.jpg"
+            src="/images/neural/neural-pic-1.png"
             alt=""
           />
         </div>
