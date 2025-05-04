@@ -126,6 +126,40 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      {/* End of header */}
+
+      {/* Banner */}
+
+      <div
+        className="min-h-[600px] flex items-center bg-no-repeat bg-cover"
+        style={{
+          backgroundImage: `url(/images/banners/banner-pic-1.jpg)`,
+        }}
+      >
+        <div className="max-w-[1200px] space-y-9 w-full mx-auto text-second-text-2">
+          <div className=" space-y-[20px]">
+            <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#FFFFFF] ">
+              SUMMER 2020
+            </h5>
+            <h2 className="text-[#FFFFFF] font-primary font-bold text-[40px] leading-12 tracking-[0.2px]">
+              NEW COLLECTION
+            </h2>
+            <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#FAFAFA]">
+              We know how large objects will act,
+              <br /> but things on a small scale.
+            </h4>
+            <div className="w-[332px] flex justify-between">
+              <button className=" font-primary py-4 px-10 bg-success rounded-[5px] font-bold text-h3 leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* End of banner */}
+
       {/* editors pick */}
       <div className="bg-[#FAFAFA] py-20">
         <div className="max-w-[1050px] mx-auto space-y-12">
@@ -190,8 +224,11 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* End of editors pick */}
+
       {/*product card */}
-      <div className="max-w-[1050px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="text-center font-primary py-20 ">
           <h4 className="text-[#727272] text-sm leading-5 tracking-[0.2px] font-normal">
             Featured Products
@@ -375,9 +412,44 @@ export default function Home() {
         </div>
       </div>
 
+      {/* End of product card */}
+
+      {/* vita section */}
+      <div className="min-h-[590px] bg-[#23856D] ">
+        <div className="max-w-[1200px] mx-auto grid grid-cols-2 ">
+          <div className="max-w-[1200px] space-y-9 w-full mx-auto text-second-text-2 py-[40px] ">
+            <div className=" space-y-[20px]">
+              <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#FFFFFF] ">
+                SUMMER 2020
+              </h5>
+              <h1 className="text-[#FFFFFF] font-primary font-bold text-[58px] leading-20 tracking-[0.2px]">
+                Vita Classic <br />
+                Product
+              </h1>
+              <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#FAFAFA]">
+                We know how large objects will act,
+                <br /> but things on a small scale.
+              </h4>
+              <div className="w-[332px] flex justify-between items-center">
+                <h3 className="font-primary leading-8 tracking-[0.1px] text-[#FFFFFF] text-[24px]">
+                  $16.48
+                </h3>
+                <button className=" font-primary py-4 px-10 bg-success rounded-[5px] font-bold text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="/images/vitas/vita-pic-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      {/* End of vita secttion */}
+
       {/* Neural Universe */}
-      <div className="w-[1050px] h-[682px] mx-auto flex justify-around">
-        <div className="w-[735px] h-[645px]">
+      <div className="w-[1200px] mx-auto grid grid-cols-2 gap-[125px] items-center">
+        <div className="w-[735px] ">
           <img
             className="bg-cover"
             src="/images/neural/neural-pic-1.png"
@@ -385,7 +457,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="py-[100px] pl-8">
+        <div className=" space-y-[20px]">
           <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#BDBDBD] ">
             SUMMER 2020
           </h5>
@@ -393,20 +465,24 @@ export default function Home() {
             Part of the Neural <br /> Universe
           </h2>
           <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#737373]">
-            We know how large objects will act, but things on a small scale.
+            We know how large objects will act,
+            <br /> but things on a small scale.
           </h4>
           <div className="w-[332px] flex justify-between">
-            <button className="py-5 px-[40px] border-[1px] bg-[#2DC071] rounded-sm text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+            <button className="py-[15px] px-[30px] border-[1px] bg-[#2DC071] rounded-[5px] text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
               BUY NOW
             </button>
-            <button className="py-5 px-[40px] border-[1px] bg-white rounded-sm text-sm leading-5 tracking-[0.2px] text-[#2DC071] cursor-pointer focus:outline-none ">
+            <button className="py-[15px] px-[30px] border-[1px] bg-white rounded-[5px] text-sm leading-5 tracking-[0.2px] text-[#2DC071] cursor-pointer focus:outline-none ">
               READ MORE
             </button>
           </div>
         </div>
       </div>
+
+      {/* End of  Neural Universe */}
+
       {/* featured post */}
-      <div className="max-w-[1050px] mx-auto py-28">
+      <div className="max-w-[1200px] mx-auto py-28">
         <div className=" mx-auto text-center pb-20">
           <h6 className="text-primary text-sm leading-6 tracking-[0.2px] font-bold">
             Practice Advice
@@ -419,8 +495,8 @@ export default function Home() {
             realms of Classical physics: Newtonian mechanics
           </p>
         </div>
-        <div className="flex gap-8 ">
-          <div className="w-[328px] h-[606px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
+        <div className="grid grid-cols-3">
+          <div className="w-[328px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
             <img
               className="w-full h-[300px]"
               src="/images/featured/featured-pic-1.jpg"
@@ -428,7 +504,7 @@ export default function Home() {
             />
 
             <div className="p-6">
-              <div className="flex w-159px ">
+              <div className="flex w-[159px] ">
                 <span className="font-primary text-[#8EC2F2] text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Google
                 </span>
@@ -463,7 +539,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[328px] h-[606px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
+          <div className="w-[328px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
             <img
               className="w-full h-[300px]"
               src="/images/featured/featured-pic-2.jpg"
@@ -471,7 +547,7 @@ export default function Home() {
             />
 
             <div className="p-6">
-              <div className="flex w-159px ">
+              <div className="flex w-[159px] ">
                 <span className="font-primary text-[#8EC2F2] text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Google
                 </span>
@@ -506,7 +582,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[328px] h-[606px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
+          <div className="w-[328px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
             <img
               className="w-full h-[300px]"
               src="/images/featured/featured-pic-3.jpg"
@@ -551,10 +627,12 @@ export default function Home() {
         </div>
       </div>
 
+      {/* End of featured post */}
+
       {/* footer */}
       <footer>
         <div className=" bg-[#FAFAFA] font-primary py-10">
-          <div className=" max-w-[1050px]  mx-auto flex justify-between items-center">
+          <div className=" max-w-[1200px]  mx-auto flex justify-between items-center">
             <h3 className="text-[30px] font-bold">Bandage</h3>
             <div className="flex gap-4 items-center">
               <svg
@@ -625,9 +703,9 @@ export default function Home() {
           </div>
         </div>
 
-        <hr className=" max-w-[1050px]  mx-auto text-[#E6E6E6] mb-12" />
+        <hr className=" max-w-[1200px]  mx-auto text-[#E6E6E6] mb-12" />
 
-        <div className=" font-primary max-w-[1050px] h-[136px] mx-auto flex justify-between ]">
+        <div className=" font-primary max-w-[1200px] h-[136px] mx-auto flex justify-between ]">
           <div className="space-y-5">
             <h3 className="text-[23px] text-[#252B42] font-bold">
               Company Info
@@ -690,11 +768,13 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-[#FAFAFA] font-primary">
-          <div className=" h-[74px] py-6 max-w-[1050px]  mx-auto text-[#737373] text-[18px] mt-[70px]">
+          <div className=" h-[74px] py-6 max-w-[1200px]  mx-auto text-[#737373] text-sm mt-[70px]">
             Made With Love By Finland All Right Reserved
           </div>
         </div>
       </footer>
+
+      {/* End of Footer */}
     </>
   );
 }
