@@ -69,7 +69,7 @@
   --font-mono: var(--font-geist-mono);
 
   --font-*: initial;
-  --font-primary: var(--font-montserrat);
+  --font-primary: var(--ff-primary);
 
   --color-*: initial;
   --color-primary: var(--clr-primary);
