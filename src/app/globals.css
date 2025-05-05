@@ -23,8 +23,8 @@
   --clr-text-secondary-1: #40bb15;
   --clr-text-secondary-2: #3c403d;
   --clr-text: #252b42;
-  --clr-second-text-1: #737373;
-  --clr-second-text-2: #ffffff;
+  --clr-second-text: #737373;
+  --clr-light-text: #ffffff;
   --clr-success-text: #2dc071;
   --clr-alert-text: #e77c40;
   --clr-danger-text: #e74040;
@@ -68,8 +68,10 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
+  --font-*: initial;
   --font-primary: var(--font-montserrat);
 
+  --color-*: initial;
   --color-primary: var(--clr-primary);
   --color-secondary-1: var(--clr-secondary-1);
   --color-secondary-2: var(--clr-secondary-2);
@@ -87,8 +89,8 @@
   --color-text-secondary-1: var(--clr-text-secondary-1);
   --color-text-secondary-2: var(--clr-text-secondary-2);
   --color-text: var(--clr-text);
-  --color-second-text-1: var(--clr-second-text-1);
-  --color-second-text-2: var(--clr-second-text-2);
+  --color-second-text: var(--clr-second-text);
+  --color-light-text: var(--clr-light-text);
   --color-success-text: var(--clr-success-text);
   --color-alert-text: var(--clr-alert-text);
   --color-danger-text: var(--clr-danger-text);
@@ -117,6 +119,7 @@
   --font-link: var(--fsz-link);
   --font-small: var(--fsz-small);
 
+  --font-*: initial;
   --font-weight: var(--fw);
   --font-weight-1: var(--fw-1);
 }

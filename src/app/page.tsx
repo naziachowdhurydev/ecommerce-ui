@@ -4,9 +4,11 @@ export default function Home() {
       {/* header */}
       <header className="w-[1400px] h-[136px] mx-auto flex justify-between">
         <div className="flex gap-13.5 items-center">
-          <span className="font-primary font-bold text-[28px]">BrandName</span>
+          <span className="font-primary text-text font-bold text-[28px]">
+            BrandName
+          </span>
           <nav className="text-[18px] p-2">
-            <ul className="flex gap-8 text-1rem text-[#727272]">
+            <ul className="flex gap-8 text-1rem text-second-text">
               <li>
                 <a className="font-primary" href="#">
                   Home
@@ -55,7 +57,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3 className="font-primary font-bold text-sm text-[#737373]">
+            <h3 className="font-primary font-bold text-sm text-primary">
               Login / Register
             </h3>
 
@@ -132,25 +134,25 @@ export default function Home() {
       {/* Banner */}
 
       <div
-        className="min-h-[600px] flex items-center bg-no-repeat bg-cover"
+        className=" min-h-[600px] flex items-center bg-no-repeat bg-cover"
         style={{
           backgroundImage: `url(/images/banners/banner-pic-1.jpg)`,
         }}
       >
         <div className="max-w-[1200px] space-y-9 w-full mx-auto text-second-text-2">
           <div className=" space-y-[20px]">
-            <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#FFFFFF] ">
+            <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-light-text ">
               SUMMER 2020
             </h5>
-            <h2 className="text-[#FFFFFF] font-primary font-bold text-[40px] leading-12 tracking-[0.2px]">
+            <h2 className="text-light-text font-primary font-bold text-[40px] leading-12 tracking-[0.2px]">
               NEW COLLECTION
             </h2>
-            <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#FAFAFA]">
+            <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-light-text">
               We know how large objects will act,
               <br /> but things on a small scale.
             </h4>
             <div className="w-[332px] flex justify-between">
-              <button className=" font-primary py-4 px-10 bg-success rounded-[5px] font-bold text-h3 leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+              <button className=" font-primary text-light-text py-4 px-10 bg-success rounded-[5px] font-bold text-h3 leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
                 SHOP NOW
               </button>
             </div>
@@ -161,13 +163,13 @@ export default function Home() {
       {/* End of banner */}
 
       {/* editors pick */}
-      <div className="bg-[#FAFAFA] py-20">
-        <div className="max-w-[1050px] mx-auto space-y-12">
+      <div className="py-20">
+        <div className="max-w-[1200px] mx-auto space-y-12">
           <div className="space-y-2.5">
-            <h2 className="font-primary mb-2.5 font-bold text-2xl leading-8 tracking-[0.1px] text-center text-[#252B42]">
+            <h2 className="font-primary mb-2.5 font-bold text-2xl leading-8 tracking-[0.1px] text-center text-text">
               EDITOR'S PICK
             </h2>
-            <p className="font-primary font-normal text-sm leading-6 tracking-[0.2px] text-center text-[#737373]">
+            <p className="font-prima font-normal text-h6 leading-6 tracking-[0.2px] text-center text-second-text">
               Problems trying to resolve the conflict between
             </p>
           </div>
@@ -179,8 +181,8 @@ export default function Home() {
                 alt=""
                 className="w-full h-full bg-cover"
               />
-              <div className="bg-white absolute bottom-5 left-5 py-3 px-10">
-                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+              <div className="bg-light-background absolute bottom-5 left-5 py-3 px-10">
+                <span className="text-text font-primary font-bold text-base leading-6 tracking-[0.1px]">
                   MEN
                 </span>
               </div>
@@ -191,8 +193,8 @@ export default function Home() {
                 alt=""
                 className="w-full h-full bg-cover"
               />
-              <div className="bg-white absolute bottom-5 left-5 py-3 px-10">
-                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+              <div className="bg-light-background absolute bottom-5 left-5 py-3 px-10">
+                <span className="text-text font-primary font-bold text-base leading-6 tracking-[0.1px]">
                   WOMEN
                 </span>
               </div>
@@ -203,8 +205,8 @@ export default function Home() {
                 alt=""
                 className="w-full h-full bg-cover"
               />
-              <div className="bg-white absolute bottom-5 left-5 py-3 px-10 ">
-                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+              <div className="bg-light-background absolute bottom-5 left-5 py-3 px-10 ">
+                <span className="text-text font-primary font-bold text-base leading-6 tracking-[0.1px]">
                   ACCESSORIES
                 </span>
               </div>
@@ -215,8 +217,8 @@ export default function Home() {
                 alt=""
                 className="w-full h-full bg-cover"
               />
-              <div className="bg-white absolute bottom-5 left-5 py-3 px-10 ">
-                <span className="text-[#252B42] font-primary font-bold text-base leading-6 tracking-[0.1px]">
+              <div className="bg-light-background absolute bottom-5 left-5 py-3 px-10 ">
+                <span className="text-text font-primary font-bold text-base leading-6 tracking-[0.1px]">
                   KIDS
                 </span>
               </div>
@@ -230,17 +232,17 @@ export default function Home() {
       {/*product card */}
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center font-primary py-20 ">
-          <h4 className="text-[#727272] text-sm leading-5 tracking-[0.2px] font-normal">
+          <h4 className="text-second-text text-h6 leading-5 tracking-[0.2px] font-normal">
             Featured Products
           </h4>
-          <h3 className="text-2xl font-primary leading-8 tracking-[0.2px] font-bold text-[#252B42]">
+          <h3 className="text-2xl font-primary leading-8 tracking-[0.2px] font-bold text-text">
             BESTSELLER PRODUCTS
           </h3>
-          <h4 className="text-sm font-primary font-bold leading-5 tracking-[0.2px] text-[#737373]">
+          <h4 className="text-h6 font-primary font-bold leading-5 tracking-[0.2px] text-second-text">
             Problems trying to resolve the confilct between
           </h4>
         </div>
-        <div className="grid grid-cols-4 gap-8 max-w-[1050px] font-primary mx-auto">
+        <div className="grid grid-cols-4 gap-8 max-w-[1200px] font-primary mx-auto">
           <div className="w-[239px] h-[615px]">
             <img
               className=" w[239px] h-[427px]"
@@ -248,15 +250,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] font-primary leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -269,15 +271,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h6 leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -290,15 +292,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -311,15 +313,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -332,15 +334,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -353,15 +355,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -374,15 +376,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -395,15 +397,15 @@ export default function Home() {
               alt=""
             />
             <div className="w-[239px] h-[188px]">
-              <h3 className="text-[#252B42] text-[16px] pt-6 font-bold leading-6 tracking-[o.2px] text-center">
+              <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
-              <h4 className="text-[14px] leading-6 tracking-[0.2px] py-2.5 px-3.5 text-[#737373] font-bold text-center">
+              <h4 className="text-h6 font-primary leading-6 tracking-[0.2px] py-2.5 px-3.5 text-second-text font-bold text-center">
                 English Department
               </h4>
-              <h4 className="text-[16px] leading-6 tracking-[0.2px] text-center font-bold text-[#BDBDBD]">
+              <h4 className="text-h5 font-primary leading-6 tracking-[0.2px] text-center font-bold text-muted-text">
                 $16.48
-                <span className="text-[16px] ml-0.5 font-bold text-[#23856D]">
+                <span className="text-h5 ml-0.5 font-bold text-secondary-1">
                   $6.48
                 </span>
               </h4>
@@ -415,26 +417,26 @@ export default function Home() {
       {/* End of product card */}
 
       {/* vita section */}
-      <div className="min-h-[590px] bg-[#23856D] ">
+      <div className="min-h-[590px] bg-secondary-1 ">
         <div className="max-w-[1200px] mx-auto grid grid-cols-2 ">
           <div className="max-w-[1200px] space-y-9 w-full mx-auto text-second-text-2 py-[40px] ">
             <div className=" space-y-[20px]">
-              <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#FFFFFF] ">
+              <h5 className="text-h5 py-8 font-primary font-bold leading-6 tracking-[0.1px] text-light-text ">
                 SUMMER 2020
               </h5>
-              <h1 className="text-[#FFFFFF] font-primary font-bold text-[58px] leading-20 tracking-[0.2px]">
+              <h1 className="text-light-text font-primary font-bold text-h1 leading-20 tracking-[0.2px]">
                 Vita Classic <br />
                 Product
               </h1>
-              <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#FAFAFA]">
+              <h4 className="font-primary py-8 text-h4 leading-7 tracking-[0.2px] font-normal text-light-text-gray-1">
                 We know how large objects will act,
                 <br /> but things on a small scale.
               </h4>
               <div className="w-[332px] flex justify-between items-center">
-                <h3 className="font-primary leading-8 tracking-[0.1px] text-[#FFFFFF] text-[24px]">
+                <h3 className="font-primary leading-8 tracking-[0.1px] text-light-text-gray-1 text-h3">
                   $16.48
                 </h3>
-                <button className=" font-primary py-4 px-10 bg-success rounded-[5px] font-bold text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+                <button className=" font-primary py-4 px-10 bg-success rounded-[5px] font-bold text-sm leading-5 tracking-[0.2px] text-light-text cursor-pointer focus:outline-none ">
                   ADD TO CART
                 </button>
               </div>
@@ -458,21 +460,21 @@ export default function Home() {
         </div>
 
         <div className=" space-y-[20px]">
-          <h5 className="text-[16px] py-8 font-primary font-bold leading-6 tracking-[0.1px] text-[#BDBDBD] ">
+          <h5 className="text-h5 py-8 font-primary font-bold leading-6 tracking-[0.1px] text-muted-text ">
             SUMMER 2020
           </h5>
-          <h2 className="text-[#252B42] font-primary font-bold text-[40px] leading-12 tracking-[0.2px]">
+          <h2 className="text-text font-primary font-bold text-h2 leading-12 tracking-[0.2px]">
             Part of the Neural <br /> Universe
           </h2>
-          <h4 className="font-primary py-8 text-[20px] leading-7 tracking-[0.2px] font-normal text-[#737373]">
+          <h4 className="font-primary py-8 text-h4 leading-7 tracking-[0.2px] font-normal text-second-text">
             We know how large objects will act,
             <br /> but things on a small scale.
           </h4>
           <div className="w-[332px] flex justify-between">
-            <button className="py-[15px] px-[30px] border-[1px] bg-[#2DC071] rounded-[5px] text-sm leading-5 tracking-[0.2px] text-white cursor-pointer focus:outline-none ">
+            <button className="py-[15px] px-[30px] border-[1px] border-success bg-success rounded-[5px] text-h6 leading-5 tracking-[0.2px] text-light-text cursor-pointer focus:outline-none ">
               BUY NOW
             </button>
-            <button className="py-[15px] px-[30px] border-[1px] bg-white rounded-[5px] text-sm leading-5 tracking-[0.2px] text-[#2DC071] cursor-pointer focus:outline-none ">
+            <button className="py-[15px] px-[30px] border-[1px] bg-light-text rounded-[5px] text-h6 leading-5 tracking-[0.2px] text-success cursor-pointer focus:outline-none ">
               READ MORE
             </button>
           </div>
@@ -483,20 +485,20 @@ export default function Home() {
 
       {/* featured post */}
       <div className="max-w-[1200px] mx-auto py-28">
-        <div className=" mx-auto text-center pb-20">
-          <h6 className="text-primary text-sm leading-6 tracking-[0.2px] font-bold">
+        <div className="text-center pb-20">
+          <h6 className="text-primary text-h6 leading-6 tracking-[0.2px] font-bold">
             Practice Advice
           </h6>
-          <h2 className="font-primary text-[40px] py-2.5leading-12 tracking-[0.2px] font-bold">
+          <h2 className="font-primary text-h2 py-2.5 leading-12 tracking-[0.2px] font-bold">
             Featured Posts
           </h2>
-          <p className="font-primary font-normal text-[#737373] text-sm leading-5 tracking-[0.2px]">
+          <p className="font-primary font-normal text-second-text text-h6 leading-5 tracking-[0.2px]">
             Problems trying to resolve the conflict between <br /> the two major
             realms of Classical physics: Newtonian mechanics
           </p>
         </div>
         <div className="grid grid-cols-3">
-          <div className="w-[328px] border-[1px] bg-[#FFFFFF] shadow-md border-[#f5f5f5] border-solid">
+          <div className="w-[328px] border-[1px] bg-light-background shadow-md border-[#f5f5f5] border-solid">
             <img
               className="w-full h-[300px]"
               src="/images/featured/featured-pic-1.jpg"
@@ -505,33 +507,33 @@ export default function Home() {
 
             <div className="p-6">
               <div className="flex w-[159px] ">
-                <span className="font-primary text-[#8EC2F2] text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-disabled-element-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Google
                 </span>
-                <span className="font-primary text-[#737373] px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Trending
                 </span>
-                <span className="font-primary text-[#737373] text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   New
                 </span>
               </div>
-              <h5 className="font-primary text-[20px] py-2.5 leading-8 tracking-[0.2px] font-normal text-[#252B42]">
+              <h5 className="font-primary text-h4 py-2.5 leading-8 tracking-[0.2px] font-normal text-text">
                 Loudest à la Madison #1 (L'integral)
               </h5>
-              <p className="font-primary text-sm text-[#737373] leading-5 tracking-[0.2px] font-normal">
+              <p className="font-primary text-h6 text-second-text leading-5 tracking-[0.2px] font-normal">
                 We focus on ergonomics and meeting you where you work. It's only
                 a keystroke away.
               </p>
               <div className="flex justify-between py-2.5">
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   22 April 2021
                 </span>
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   10 Comments
                 </span>
               </div>
               <a
-                className="font-primary text-sm text-[#737373] font-bold leading-6 tracking-[0.2px]"
+                className="font-primary text-h6 text-second-text font-bold leading-6 tracking-[0.2px]"
                 href=""
               >
                 Learn More
@@ -548,33 +550,33 @@ export default function Home() {
 
             <div className="p-6">
               <div className="flex w-[159px] ">
-                <span className="font-primary text-[#8EC2F2] text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-disabled-element-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Google
                 </span>
-                <span className="font-primary text-[#737373] px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Trending
                 </span>
-                <span className="font-primary text-[#737373] text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   New
                 </span>
               </div>
-              <h5 className="font-primary text-[20px] py-2.5 leading-8 tracking-[0.2px] font-normal text-[#252B42]">
+              <h5 className="font-primary text-h4 py-2.5 leading-8 tracking-[0.2px] font-normal text-text">
                 Loudest à la Madison #1 (L'integral)
               </h5>
-              <p className="font-primary text-sm text-[#737373] leading-5 tracking-[0.2px] font-normal">
+              <p className="font-primary text-h6 text-second-text leading-5 tracking-[0.2px] font-normal">
                 We focus on ergonomics and meeting you where you work. It's only
                 a keystroke away.
               </p>
               <div className="flex justify-between py-2.5">
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   22 April 2021
                 </span>
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   10 Comments
                 </span>
               </div>
               <a
-                className="font-primary text-sm text-[#737373] font-bold leading-6 tracking-[0.2px]"
+                className="font-primary text-h6 text-second-text font-bold leading-6 tracking-[0.2px]"
                 href=""
               >
                 Learn More
@@ -590,34 +592,34 @@ export default function Home() {
             />
 
             <div className="p-6">
-              <div className="flex w-159px ">
-                <span className="font-primary text-[#8EC2F2] text-[12px] leading-4 tracking-[0.2px] font-normal">
+              <div className="flex w-[159px] ">
+                <span className="font-primary text-disabled-element-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Google
                 </span>
-                <span className="font-primary text-[#737373] px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text px-3 text-[12px] leading-4 tracking-[0.2px] font-normal">
                   Trending
                 </span>
-                <span className="font-primary text-[#737373] text-[12px] leading-4 tracking-[0.2px] font-normal">
+                <span className="font-primary text-second-text text-[12px] leading-4 tracking-[0.2px] font-normal">
                   New
                 </span>
               </div>
-              <h5 className="font-primary text-[20px] py-2.5 leading-8 tracking-[0.2px] font-normal text-[#252B42]">
+              <h5 className="font-primary text-h4 py-2.5 leading-8 tracking-[0.2px] font-normal text-text">
                 Loudest à la Madison #1 (L'integral)
               </h5>
-              <p className="font-primary text-sm text-[#737373] leading-5 tracking-[0.2px] font-normal">
+              <p className="font-primary text-h6 text-second-text leading-5 tracking-[0.2px] font-normal">
                 We focus on ergonomics and meeting you where you work. It's only
                 a keystroke away.
               </p>
               <div className="flex justify-between py-2.5">
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   22 April 2021
                 </span>
-                <span className="font-primary text-[12px] text-[#737373] leading-4 tracking-[0.2px]">
+                <span className="font-primary text-[12px] text-second-text leading-4 tracking-[0.2px]">
                   10 Comments
                 </span>
               </div>
               <a
-                className="font-primary text-sm text-[#737373] font-bold leading-6 tracking-[0.2px]"
+                className="font-primary text-h6 text-second-text font-bold leading-6 tracking-[0.2px]"
                 href=""
               >
                 Learn More
@@ -631,9 +633,9 @@ export default function Home() {
 
       {/* footer */}
       <footer>
-        <div className=" bg-[#FAFAFA] font-primary py-10">
+        <div className=" bg-light-gray-1 font-primary py-10">
           <div className=" max-w-[1200px]  mx-auto flex justify-between items-center">
-            <h3 className="text-[30px] font-bold">Bandage</h3>
+            <h3 className="text-h3 text-text font-bold">Bandage</h3>
             <div className="flex gap-4 items-center">
               <svg
                 width="25"
@@ -707,10 +709,8 @@ export default function Home() {
 
         <div className=" font-primary max-w-[1200px] h-[136px] mx-auto flex justify-between ]">
           <div className="space-y-5">
-            <h3 className="text-[23px] text-[#252B42] font-bold">
-              Company Info
-            </h3>
-            <ul className="text-[#737373] text-[18px] space-y-2.5">
+            <h5 className="text-h3 text-text font-bold">Company Info</h5>
+            <ul className="text-second-text text-h6 space-y-2.5">
               <li>About Us</li>
               <li>Carrier</li>
               <li>WE are hiring</li>
@@ -719,8 +719,8 @@ export default function Home() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="text-[23px] text-[#252B42] font-bold">Legal</h3>
-            <ul className="text-[#737373] text-[18px] space-y-2.5">
+            <h5 className="text-h3 text-text font-bold">Legal</h5>
+            <ul className="text-second-text text-h6 space-y-2.5">
               <li>About Us</li>
               <li>Carrier</li>
               <li>WE are hiring</li>
@@ -729,8 +729,8 @@ export default function Home() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="text-[23px] text-[#252B42] font-bold">Features</h3>
-            <ul className="text-[#737373] text-[18px] space-y-2.5">
+            <h5 className="text-h3 text-text font-bold">Features</h5>
+            <ul className="text-second-text text-h6 space-y-2.5">
               <li>Business Marketing</li>
               <li>User Analytic</li>
               <li>Live Chat</li>
@@ -739,8 +739,8 @@ export default function Home() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="text-[23px] text-[#252B42] font-bold">Resoures</h3>
-            <ul className="text-[#737373] text-[18px] space-y-2.5">
+            <h5 className="text-h3 text-text font-bold">Resoures</h5>
+            <ul className="text-second-text text-h6 space-y-2.5">
               <li>IOS & Android</li>
               <li>Watch a Demo </li>
               <li>Customers</li>
@@ -749,26 +749,24 @@ export default function Home() {
           </div>
 
           <div className="space-y-5">
-            <h3 className="text-[23px] text-[#252B42] font-bold">
-              Get In Touch
-            </h3>
+            <h5 className="text-h3 text-text font-bold">Get In Touch</h5>
             <div>
               <input
                 className=" py-[15px] px-5 border-[1px] focus:outline-none rounded-bl-sm rounded-tl-sm border-[#E6E6E6] bg-[#F9F9F9] rounded-sm leading-7 tracking-[0.2px] text-sm text-[#737373] placeholder:text-[#737373] placeholder:text-sm placeholder:leading-7 placeholder:tracking-[o.2px]"
                 type="text"
                 placeholder="Your Email"
               />
-              <button className="py-4 px-5 text-white leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
+              <button className="py-4 px-5 text-light-text leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
                 Subscribe
               </button>
-              <p className="text-sm pb-2 leading-7 tracking-[0,2px] text-[#737373]">
+              <p className="text-h6 pb-2 leading-7 tracking-[0,2px] text-second-text">
                 Lore imp sum dolor Amit
               </p>
             </div>
           </div>
         </div>
-        <div className="bg-[#FAFAFA] font-primary">
-          <div className=" h-[74px] py-6 max-w-[1200px]  mx-auto text-[#737373] text-sm mt-[70px]">
+        <div className="bg-light-gray-1 font-primary">
+          <div className=" h-[74px] py-6 max-w-[1200px]  mx-auto text-second-text text-h6 mt-[70px]">
             Made With Love By Finland All Right Reserved
           </div>
         </div>
