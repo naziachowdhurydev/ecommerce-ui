@@ -55,7 +55,7 @@
   --fsz-small: 12px;
 
   /* font family */
-  --ff-primary: --font-montserrat;
+  --ff-primary: var(--font-montserrat);
 
   /* font weights */
   --fw: bold;
@@ -69,7 +69,7 @@
   --font-mono: var(--font-geist-mono);
 
   --font-*: initial;
-  --font-primary: var(--ff-primary);
+  --font-primary: var(--font-montserrat);
 
   --color-*: initial;
   --color-primary: var(--clr-primary);
@@ -119,7 +119,7 @@
   --font-link: var(--fsz-link);
   --font-small: var(--fsz-small);
 
-  --font-*: initial;
+  /* --font-*: initial; */
   --font-weight: var(--fw);
   --font-weight-1: var(--fw-1);
 }
