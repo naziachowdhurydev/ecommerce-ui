@@ -317,7 +317,7 @@ export default function Home() {
           </div>
           <div className="w-[238px] h-[615px]">
             <img
-              className=" w[239px] h-[427px]"
+              className=" w[239px] h-[427px] "
               src="/images/products/picThree.jpg"
               alt=""
             />
