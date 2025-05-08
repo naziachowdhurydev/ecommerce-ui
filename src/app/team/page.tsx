@@ -719,6 +719,7 @@ const TeamPage = () => {
       {/* End of meet our team */}
 
       {/* Trial */}
+
       <Trial />
 
       {/* End of trial */}
