@@ -1,7 +1,7 @@
 export const Trial = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto text-center pb-20 space-y-8">
+      <div className="max-w-[1200px] mx-auto text-center pb-30 space-y-8">
         <h2 className="text-text text-h2 leading-12 tracking-[0.2px] font-primary font-bold ">
           Start your 14 days free trial
         </h2>

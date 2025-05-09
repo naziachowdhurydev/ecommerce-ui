@@ -68,7 +68,7 @@ const ContactPage = () => {
         {/* contact section */}
         <div>
           <div
-            className="h-full flex items-center bg-no-repeat bg-cover"
+            className="h-[100%] max-w-full object-fill flex justify-center items-center bg-no-repeat bg-cover"
             style={{
               backgroundImage: `url(/images/contact/background/contact-bg.jpg)`,
             }}
