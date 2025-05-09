@@ -281,6 +281,7 @@ const ContactPage = () => {
 
         {/* End of office */}
 
+        {/* let's talk */}
         <div className="max-w-[1200px] mx-auto text-center pb-20 space-y-8">
           <h5 className="text-text text-h5 leading-12 tracking-[0.1px] font-primary font-bold ">
             WE Can't WAIT TO MEET YOU
@@ -292,7 +293,6 @@ const ContactPage = () => {
             Try it free now
           </button>
         </div>
-        {/* let's talk */}
 
         {/* End of let's talk */}
 
