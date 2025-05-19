@@ -249,7 +249,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-4 gap-x-7 gap-y-4 gird-row-2">
+          <div className="grid px-10 lg:px-0 lg:grid-cols-4 gap-x-7 gap-y-4 gird-row-2">
             <div className=" col-span-2 row-span-2 relative">
               <img
                 src="/images/pick-editors/pick-1.jpg"
@@ -318,13 +318,15 @@ export default function Home() {
           </h4>
         </div>
         <div className="grid grid-cols-4 gap-8 max-w-[1200px] font-primary mx-auto">
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/fixed-height.jpg"
-              alt=""
-            />
-            <div className=" h-[188px]">
+          <div className="">
+            <div className="max-w-auto ">
+              <img
+                className="object-cover "
+                src="/images/products/fixed-height.jpg"
+                alt=""
+              />
+            </div>
+            <div className="">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
@@ -339,13 +341,15 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picTwo.jpg"
-              alt=""
-            />
-            <div className="w-[239px] h-[188px]">
+          <div className="">
+            <div className="overflow-hidden">
+              <img
+                className="object-cover max-h-[427px] w-auto overflow-hidden"
+                src="/images/products/picTwo.jpg"
+                alt=""
+              />
+            </div>
+            <div className="">
               <h3 className="text-text text-h5 pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
               </h3>
@@ -360,9 +364,9 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
+          <div className=" ">
             <img
-              className=" w[239px] h-[427px] "
+              className=" w[239px]"
               src="/images/products/picThree.jpg"
               alt=""
             />
@@ -381,12 +385,8 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picFour.jpg"
-              alt=""
-            />
+          <div className=" ">
+            <img className=" " src="/images/products/picFour.jpg" alt="" />
             <div className="w-[239px] h-[188px]">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
@@ -402,12 +402,8 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picFive.jpg"
-              alt=""
-            />
+          <div className=" ">
+            <img className="" src="/images/products/picFive.jpg" alt="" />
             <div className="w-[239px] h-[188px]">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
@@ -423,12 +419,8 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picSix.jpg"
-              alt=""
-            />
+          <div className=" ">
+            <img className="" src="/images/products/picSix.jpg" alt="" />
             <div className="w-[239px] h-[188px]">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
@@ -444,12 +436,8 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picSeven.jpg"
-              alt=""
-            />
+          <div className="">
+            <img className=" " src="/images/products/picSeven.jpg" alt="" />
             <div className="w-[239px] h-[188px]">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
@@ -465,12 +453,8 @@ export default function Home() {
               </h4>
             </div>
           </div>
-          <div className=" h-[615px]">
-            <img
-              className=" w[239px] h-[427px]"
-              src="/images/products/picEight.jpg"
-              alt=""
-            />
+          <div className=" ">
+            <img className=" " src="/images/products/picEight.jpg" alt="" />
             <div className="w-[239px] h-[188px]">
               <h3 className="text-text text-h5 font-primary pt-6 font-bold leading-6 tracking-[o.2px] text-center">
                 Graphic Design
@@ -569,7 +553,7 @@ export default function Home() {
       {/* End of vita secttion */}
 
       {/* Neural Universe */}
-      <div className="w-[1200px] mx-auto grid grid-cols-2 gap-[125px] items-center">
+      <div className="w-[1200px]  mx-auto grid lg:text-left text-center lg:grid-cols-2 gap-[125px] items-center">
         <div className="w-[735px] ">
           <img
             className="bg-cover"
@@ -578,7 +562,7 @@ export default function Home() {
           />
         </div>
 
-        <div className=" space-y-[20px]">
+        <div className=" lg:space-y-[20px] ">
           <h5 className="text-h5 py-8 font-primary font-bold leading-6 tracking-[0.1px] text-muted-text ">
             SUMMER 2020
           </h5>
@@ -589,7 +573,7 @@ export default function Home() {
             We know how large objects will act,
             <br /> but things on a small scale.
           </h4>
-          <div className="w-[332px] flex justify-between">
+          <div className="flex justify-start gap-2.5 px-[450px] lg:px-0">
             <button className="py-[15px] px-[30px] border-[1px] border-success bg-success rounded-[5px] text-h6 leading-5 tracking-[0.2px] text-light-text cursor-pointer focus:outline-none ">
               BUY NOW
             </button>
@@ -603,7 +587,7 @@ export default function Home() {
       {/* End of  Neural Universe */}
 
       {/* featured post */}
-      <div className="max-w-[1200px] mx-auto py-28">
+      <div className="max-w-[1200px] mx-auto py-28 px-[42px] lg:px-0">
         <div className="text-center pb-20">
           <h6 className="text-primary text-h6 leading-6 tracking-[0.2px] font-bold">
             Practice Advice
@@ -616,7 +600,7 @@ export default function Home() {
             realms of Classical physics: Newtonian mechanics
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-2.5">
+        <div className=" lg:px-0 grid grid-cols-1 gap-2.5 lg:grid-cols-3 sm:grid-cols-2">
           <div className=" border-[1px] bg-light-background shadow-md border-[#f5f5f5] border-solid">
             <div className="max-h-[300px] overflow-hidden">
               <img

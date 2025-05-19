@@ -3,7 +3,7 @@ export const Footer = () => {
     <>
       <footer>
         <div className=" bg-light-gray-1 font-primary py-10">
-          <div className=" max-w-[1200px]  mx-auto flex justify-between items-center">
+          <div className="space-y-6 px-10 lg:max-w-[1200px]  lg:mx-auto lg:flex lg:justify-between items-center">
             <h3 className="text-h3 text-text font-bold">Bandage</h3>
             <div className="flex gap-4 items-center">
               <svg
@@ -76,7 +76,7 @@ export const Footer = () => {
 
         <hr className=" max-w-[1200px]  mx-auto text-[#E6E6E6] mb-12" />
 
-        <div className=" font-primary max-w-[1200px] h-[136px] mx-auto flex justify-between ]">
+        <div className=" px-10 lg:px-0 font-primary max-w-[1200px] h-[136px] mx-auto lg:flex lg:justify-between ]">
           <div className="space-y-5">
             <h5 className="text-h3 text-text font-bold">Company Info</h5>
             <ul className="text-second-text text-h6 space-y-2.5">
@@ -135,7 +135,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="bg-light-gray-1 font-primary">
-          <div className=" h-[74px] py-6 max-w-[1200px]  mx-auto text-second-text text-h6 mt-[70px]">
+          <div className=" py-6 max-w-[1200px]  mx-auto text-second-text text-h6 mt-[70px]">
             Made With Love By Finland All Right Reserved
           </div>
         </div>
