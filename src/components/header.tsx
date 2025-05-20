@@ -1,12 +1,12 @@
 export const Header = () => {
   return (
     <>
-      <header className="w-[1400px] mx-auto flex justify-between py-6">
+      <header className="max-w-[1400px] mx-auto flex justify-between py-6">
         <div className="flex gap-13.5 items-center">
-          <span className="font-primary text-text font-bold text-[28px]">
+          <span className="font-primary text-h3 text-text font-bold ">
             BrandName
           </span>
-          <nav className="text-[18px] p-2">
+          <nav className="text-h6 font-bold leading-6 tracking-[0.2px] p-2">
             <ul className="flex gap-8 text-1rem text-second-text">
               <li>
                 <a className="font-primary" href="#">

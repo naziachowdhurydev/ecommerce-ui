@@ -553,8 +553,8 @@ export default function Home() {
       {/* End of vita secttion */}
 
       {/* Neural Universe */}
-      <div className="w-[1200px]  mx-auto grid lg:text-left text-center lg:grid-cols-2 gap-[125px] items-center">
-        <div className="w-[735px] ">
+      <div className="max-w-[1200px]  mx-auto grid grid-cols-1 lg:text-left text-center lg:grid-cols-2 gap-[125px] items-center">
+        <div className="w-full ">
           <img
             className="bg-cover"
             src="/images/neural/neural-pic-1.png"
@@ -573,7 +573,7 @@ export default function Home() {
             We know how large objects will act,
             <br /> but things on a small scale.
           </h4>
-          <div className="flex justify-start gap-2.5 px-[450px] lg:px-0">
+          <div className="flex justify-center lg:justify-start gap-2.5 lg:px-0">
             <button className="py-[15px] px-[30px] border-[1px] border-success bg-success rounded-[5px] text-h6 leading-5 tracking-[0.2px] text-light-text cursor-pointer focus:outline-none ">
               BUY NOW
             </button>

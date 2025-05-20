@@ -76,10 +76,10 @@ export const Footer = () => {
 
         <hr className=" max-w-[1200px]  mx-auto text-[#E6E6E6] mb-12" />
 
-        <div className=" px-10 lg:px-0 font-primary max-w-[1200px] h-[136px] mx-auto lg:flex lg:justify-between ]">
+        <div className=" px-10 lg:px-0 font-primary max-w-[1200px] mx-auto lg:flex lg:justify-between ]">
           <div className="space-y-5">
             <h5 className="text-h3 text-text font-bold">Company Info</h5>
-            <ul className="text-second-text text-h6 space-y-2.5">
+            <ul className="text-second-text text-h6 space-y-2.5 pb-4 lg:pb-0">
               <li>About Us</li>
               <li>Carrier</li>
               <li>WE are hiring</li>
@@ -89,7 +89,7 @@ export const Footer = () => {
 
           <div className="space-y-5">
             <h5 className="text-h3 text-text font-bold">Legal</h5>
-            <ul className="text-second-text text-h6 space-y-2.5">
+            <ul className="text-second-text text-h6 space-y-2.5 pb-4 lg:pb-0">
               <li>About Us</li>
               <li>Carrier</li>
               <li>WE are hiring</li>
@@ -99,7 +99,7 @@ export const Footer = () => {
 
           <div className="space-y-5">
             <h5 className="text-h3 text-text font-bold">Features</h5>
-            <ul className="text-second-text text-h6 space-y-2.5">
+            <ul className="text-second-text text-h6 space-y-2.5 pb-4 lg:pb-0">
               <li>Business Marketing</li>
               <li>User Analytic</li>
               <li>Live Chat</li>
@@ -109,7 +109,7 @@ export const Footer = () => {
 
           <div className="space-y-5">
             <h5 className="text-h3 text-text font-bold">Resoures</h5>
-            <ul className="text-second-text text-h6 space-y-2.5">
+            <ul className="text-second-text text-h6 space-y-2.5 pb-4 lg:pb-0">
               <li>IOS & Android</li>
               <li>Watch a Demo </li>
               <li>Customers</li>
@@ -128,7 +128,7 @@ export const Footer = () => {
               <button className="py-4 px-5 text-light-text leading-7 tracking-[0.2px] rounded-br-sm rounded-tr-sm cursor-pointer focus:outline-none bg-[#23A6F0] ">
                 Subscribe
               </button>
-              <p className="text-h6 pb-2 leading-7 tracking-[0,2px] text-second-text">
+              <p className="text-h6 pb-2 leading-7 tracking-[0,2px] text-second-text pt-2">
                 Lore imp sum dolor Amit
               </p>
             </div>
